@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Lato-regular", cursive;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+
+.Main-Div {
+    border: none;
+    display: grid;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 150px 150px 150px;
+    width: 450px;
+}
+
+.sqrbox {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    border: 10px inset rgba(166, 40, 237, 0.86);
+    border-radius: 10%;
+    font-size: 60px;
+    color: white;
+    width: 90%;
+    height: 90%;
+    background-color: rgba(166, 40, 237, 0.86);
+    box-shadow: 0px 0px 50px rgba(2, 1, 1, 0.7);
+}
+
+.btndiv {
+    margin-top: auto;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+}
+
+.Reset {
+    border: none;
+    background-color: transparent;
+    color: transparent;
+    border-radius: 10%;
+    width: 30px;
+    height: 30px;
+}
+
+.Reset:active {
+    transform: scale(0.9);
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+h1 {
+    font-size: 60px;
+    color: rgba(10, 173, 232, 1);
+}
+
+.line {
+    width: 380px;
+    height: 0.12cm;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    opacity: 0%;
+}
+
+.congrates {
+    width: 400px;
+    height: 50px;
+    border-bottom: 2px solid rgb(183, 93, 236);
+    border-top: 2px solid rgb(183, 93, 236);
+    background-color: black;
+    box-shadow: -5px 5px 20px black;
+    border-radius: 25px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+}
+
+@keyframes IncreaseWidth {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 380px;
+    }
+}
+
+@keyframes IncreaseDiagonal {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 500px;
+    }
+}
+
+h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
